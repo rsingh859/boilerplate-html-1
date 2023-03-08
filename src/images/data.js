@@ -1,4 +1,4 @@
-export const imageesObj = [
+export const imageObject = [
   {
     id: 0,
     url: "https://images.unsplash.com/photo-1675802304727-5f045dd07f84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzOTIwMzB8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzgyODIyNzg&ixlib=rb-4.0.3&q=80&w=1080",
