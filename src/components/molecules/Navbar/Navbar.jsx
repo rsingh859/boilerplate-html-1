@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
-import Logo from "../../../images/logo_pl.png";
+import Logo from "../../../images/logo.png";
+import { GoThreeBars } from "react-icons/go";
 import { links } from "../../../placeholderData";
 
 import "./Navbar.css";
@@ -20,6 +21,9 @@ const Navbar = () => {
             );
           })}
         </ul>
+        <button className="nav__toggle-btn">
+          <GoThreeBars />
+        </button>
       </div>
     </nav>
   );
